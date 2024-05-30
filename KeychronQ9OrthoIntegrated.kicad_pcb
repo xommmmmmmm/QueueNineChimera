@@ -205,7 +205,7 @@
 		(descr "Alps rotary encoder, EC11E/EC11N with switch, vertical shaft")
 		(tags "rotary encoder")
 		(property "Reference" "SW2"
-			(at 5.75 -6.999999 360)
+			(at 5.75 -6.999999 0)
 			(layer "F.SilkS")
 			(uuid "db0e9dba-29da-45b7-8d5b-7f6788944b82")
 			(effects
@@ -461,7 +461,7 @@
 			(uuid "a311a0e0-6e9b-46f2-844e-748837a7332e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "51702f46-9937-4b40-b8a4-aff0e19b8df8")
 			(effects
@@ -564,7 +564,7 @@
 		(descr "Alps rotary encoder, EC11E/EC11N with switch, vertical shaft")
 		(tags "rotary encoder")
 		(property "Reference" "SW1"
-			(at 5.75 -6.999999 360)
+			(at 5.75 -6.999999 0)
 			(layer "F.SilkS")
 			(uuid "e384f42b-41a5-4c2f-a829-d88d52503720")
 			(effects
@@ -820,7 +820,7 @@
 			(uuid "78a23945-ce34-4974-a2fe-c7f0385d5626")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "003bc6e2-06ea-4fc9-9146-e54d1b10b2eb")
 			(effects
@@ -18212,7 +18212,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "1efecc8a-c065-4a56-a9af-6b9f12526a7e")
 			(effects
@@ -18224,7 +18224,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "5870879e-ff9d-4316-b22f-46e599d70ab2")
 			(effects
@@ -18380,7 +18380,7 @@
 			(uuid "3bb1160b-68c0-4d83-b8db-45b0b6c768d2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f6f24e99-16be-40e2-8493-def79cb820ac")
 			(effects
@@ -29347,7 +29347,7 @@
 		)
 		(fp_arc
 			(start 9.03125 5.999999)
-			(mid 8.677729 5.853535)
+			(mid 8.677694 5.853541)
 			(end 8.53125 5.499999)
 			(stroke
 				(width 0.05)
@@ -29358,7 +29358,7 @@
 		)
 		(fp_arc
 			(start 14.78125 -8.000001)
-			(mid 15.134771 -7.853537)
+			(mid 15.134807 -7.853543)
 			(end 15.28125 -7.500001)
 			(stroke
 				(width 0.05)
@@ -44262,7 +44262,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "B.SilkS")
 			(uuid "9c496189-5846-4326-a77e-b50796f64ee3")
 			(effects
@@ -44274,7 +44274,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "B.Fab")
 			(uuid "12ac071e-8432-4950-ad8d-12e89116e3df")
 			(effects
@@ -44430,7 +44430,7 @@
 			(uuid "65d4cb88-fc0c-4ba7-ae28-71acafbaca3e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "9eaba877-3bb5-48a2-b724-6486c394b26f")
 			(effects
@@ -48119,7 +48119,7 @@
 		(descr "SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U4"
-			(at 0 3.56 270)
+			(at 0 3.56 -90)
 			(layer "B.SilkS")
 			(uuid "558210c9-b6de-410c-8369-66c98a3b2c4d")
 			(effects
@@ -48131,7 +48131,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 0 -3.56 270)
+			(at 0 -3.56 -90)
 			(layer "B.Fab")
 			(uuid "a90bda10-7874-4935-8dc4-60b70c6e16ec")
 			(effects
@@ -48369,7 +48369,7 @@
 			(uuid "c44f21d7-4f30-4947-bbde-011a1d8faf3c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "00c5883a-aa1f-4fd0-9b3c-1d4c59f68d46")
 			(effects
@@ -60025,7 +60025,7 @@
 		)
 		(fp_arc
 			(start 9.03125 5.999999)
-			(mid 8.677729 5.853535)
+			(mid 8.677694 5.853541)
 			(end 8.53125 5.499999)
 			(stroke
 				(width 0.05)
@@ -60036,7 +60036,7 @@
 		)
 		(fp_arc
 			(start 14.78125 -8.000001)
-			(mid 15.134771 -7.853537)
+			(mid 15.134807 -7.853543)
 			(end 15.28125 -7.500001)
 			(stroke
 				(width 0.05)
@@ -79888,6 +79888,14 @@
 		(uuid "5b240a81-b1d9-48b3-9906-5fc161a9167e")
 	)
 	(segment
+		(start 307.334508 70.402413)
+		(end 307.334508 67.66088)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "5c115983-af28-4609-82d1-8e3abd50e45b")
+	)
+	(segment
 		(start 310.438149 61.191352)
 		(end 310.972008 61.191352)
 		(width 0.2)
@@ -80150,14 +80158,6 @@
 		(layer "B.Cu")
 		(net 4)
 		(uuid "af038c40-fa11-42bb-997b-53925e2fd608")
-	)
-	(segment
-		(start 307.334508 70.402413)
-		(end 307.334508 67.809708)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 4)
-		(uuid "b540fb2a-455d-49e6-92a3-3c2f0ceb72a6")
 	)
 	(segment
 		(start 304.934508 60.353852)
@@ -80472,20 +80472,20 @@
 		(uuid "5b7af45b-7edb-4b71-b788-12cbc47e6917")
 	)
 	(segment
-		(start 306.934507 68.856193)
-		(end 306.934507 67.228852)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "63b8b55a-bd69-4538-b08b-cfb858743121")
-	)
-	(segment
 		(start 306.505538 69.285162)
 		(end 305.939155 69.851545)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 5)
 		(uuid "76ac352b-e486-4433-bd63-7934bb4e78bb")
+	)
+	(segment
+		(start 306.934507 68.856193)
+		(end 306.934507 67.228852)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "830823fe-e798-4ee8-91f5-7c1cf8f8dd73")
 	)
 	(segment
 		(start 308.086971 57.538288)
