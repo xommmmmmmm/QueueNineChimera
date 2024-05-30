@@ -11399,7 +11399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 322.58 96.52 90)
 			(effects
 				(font
@@ -11756,7 +11756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 364.49 91.44 0)
 			(effects
 				(font
@@ -12230,7 +12230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 335.28 134.62 90)
 			(effects
 				(font
@@ -12519,7 +12519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 271.78 153.67 90)
 			(effects
 				(font
@@ -12607,7 +12607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 335.28 96.52 90)
 			(effects
 				(font
@@ -12695,7 +12695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 259.08 115.57 90)
 			(effects
 				(font
@@ -12849,7 +12849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 367.03 121.92 90)
 			(effects
 				(font
@@ -13002,7 +13002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 227.33 160.02 0)
 			(effects
 				(font
@@ -13224,7 +13224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 195.58 96.52 90)
 			(effects
 				(font
@@ -13312,7 +13312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 284.48 96.52 90)
 			(effects
 				(font
@@ -13535,7 +13535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 284.48 134.62 90)
 			(effects
 				(font
@@ -13690,7 +13690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 246.38 134.62 90)
 			(effects
 				(font
@@ -14203,7 +14203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 208.28 115.57 90)
 			(effects
 				(font
@@ -14490,7 +14490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 309.88 153.67 90)
 			(effects
 				(font
@@ -14576,7 +14576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 294.64 148.59 0)
 			(effects
 				(font
@@ -14714,7 +14714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 182.88 96.52 90)
 			(effects
 				(font
@@ -15002,7 +15002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 367.03 96.52 90)
 			(effects
 				(font
@@ -15155,7 +15155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 303.53 160.02 0)
 			(effects
 				(font
@@ -15293,7 +15293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 220.98 96.52 90)
 			(effects
 				(font
@@ -15451,7 +15451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 347.98 96.52 90)
 			(effects
 				(font
@@ -15605,7 +15605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 246.38 96.52 90)
 			(effects
 				(font
@@ -15762,7 +15762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 208.28 96.52 90)
 			(effects
 				(font
@@ -16122,7 +16122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 271.78 134.62 90)
 			(effects
 				(font
@@ -16208,7 +16208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 231.14 148.59 0)
 			(effects
 				(font
@@ -16415,7 +16415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 218.44 148.59 0)
 			(effects
 				(font
@@ -16485,7 +16485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 208.28 153.67 90)
 			(effects
 				(font
@@ -16960,7 +16960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 335.28 153.67 90)
 			(effects
 				(font
@@ -17184,7 +17184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 309.88 96.52 90)
 			(effects
 				(font
@@ -17272,7 +17272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 182.88 134.62 90)
 			(effects
 				(font
@@ -17766,7 +17766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 195.58 115.57 90)
 			(effects
 				(font
@@ -17854,7 +17854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 322.58 153.67 90)
 			(effects
 				(font
@@ -18212,7 +18212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 309.88 115.57 90)
 			(effects
 				(font
@@ -18438,7 +18438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 233.68 153.67 90)
 			(effects
 				(font
@@ -18594,7 +18594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 195.58 153.67 90)
 			(effects
 				(font
@@ -18748,7 +18748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 307.34 148.59 0)
 			(effects
 				(font
@@ -18818,7 +18818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 233.68 115.57 90)
 			(effects
 				(font
@@ -18883,9 +18883,9 @@
 		(at 382.27 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8ebe1c24-4c4d-4230-932c-f23c1c7c412d")
 		(property "Reference" "SW2"
@@ -18983,7 +18983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 233.68 96.52 90)
 			(effects
 				(font
@@ -19205,7 +19205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 170.18 115.57 90)
 			(effects
 				(font
@@ -19293,7 +19293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 259.08 153.67 90)
 			(effects
 				(font
@@ -19443,9 +19443,9 @@
 		(at 116.84 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9440f1dd-99d5-41bc-b352-d2c041925a24")
 		(property "Reference" "J3"
@@ -19545,7 +19545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 182.88 153.67 90)
 			(effects
 				(font
@@ -19633,7 +19633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 182.88 115.57 90)
 			(effects
 				(font
@@ -20090,7 +20090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 347.98 153.67 90)
 			(effects
 				(font
@@ -20178,7 +20178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 322.58 115.57 90)
 			(effects
 				(font
@@ -20401,7 +20401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 271.78 96.52 90)
 			(effects
 				(font
@@ -20556,7 +20556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 284.48 115.57 90)
 			(effects
 				(font
@@ -20712,7 +20712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 220.98 115.57 90)
 			(effects
 				(font
@@ -20936,7 +20936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 347.98 134.62 90)
 			(effects
 				(font
@@ -21024,7 +21024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 284.48 153.67 90)
 			(effects
 				(font
@@ -21454,7 +21454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 195.58 134.62 90)
 			(effects
 				(font
@@ -21610,7 +21610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 335.28 115.57 90)
 			(effects
 				(font
@@ -21698,7 +21698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 297.18 115.57 90)
 			(effects
 				(font
@@ -21922,7 +21922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 246.38 115.57 90)
 			(effects
 				(font
@@ -22010,7 +22010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 297.18 96.52 90)
 			(effects
 				(font
@@ -22098,7 +22098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 220.98 134.62 90)
 			(effects
 				(font
@@ -22324,7 +22324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 271.78 115.57 90)
 			(effects
 				(font
@@ -22412,7 +22412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 297.18 134.62 90)
 			(effects
 				(font
@@ -22636,7 +22636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 360.68 153.67 90)
 			(effects
 				(font
@@ -22924,7 +22924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 220.98 153.67 90)
 			(effects
 				(font
@@ -23144,7 +23144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 364.49 116.84 0)
 			(effects
 				(font
@@ -23351,7 +23351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 309.88 134.62 90)
 			(effects
 				(font
@@ -23416,9 +23416,9 @@
 		(at 382.27 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ca99419f-d3a8-4388-b3cb-0b48c7585188")
 		(property "Reference" "SW1"
@@ -23651,7 +23651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 322.58 134.62 90)
 			(effects
 				(font
@@ -23874,7 +23874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 170.18 153.67 90)
 			(effects
 				(font
@@ -24097,7 +24097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 347.98 115.57 90)
 			(effects
 				(font
@@ -24459,7 +24459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 297.18 153.67 90)
 			(effects
 				(font
@@ -24684,7 +24684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 246.38 153.67 90)
 			(effects
 				(font
@@ -24910,7 +24910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 233.68 134.62 90)
 			(effects
 				(font
@@ -24998,7 +24998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 259.08 96.52 90)
 			(effects
 				(font
@@ -25491,7 +25491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 259.08 134.62 90)
 			(effects
 				(font
@@ -25579,7 +25579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 170.18 134.62 90)
 			(effects
 				(font
@@ -25935,7 +25935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 208.28 134.62 90)
 			(effects
 				(font
@@ -26361,7 +26361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "xomm:D_SOD-123_xomm"
 			(at 170.18 96.52 90)
 			(effects
 				(font
