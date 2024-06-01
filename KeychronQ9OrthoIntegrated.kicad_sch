@@ -5794,6 +5794,12 @@
 		(uuid "20c9f8df-2240-41f8-a1ea-1fe1c5df103f")
 	)
 	(junction
+		(at 284.48 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2335e1c5-4ad2-4fff-a2de-fbbcb96996d2")
+	)
+	(junction
 		(at 220.98 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6514,6 +6520,12 @@
 		(uuid "f13ffb03-77b4-4a06-97b2-f06d16c3781e")
 	)
 	(junction
+		(at 279.4 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2aefabb-012f-40fe-96ee-2c2ba8e67c38")
+	)
+	(junction
 		(at 360.68 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6590,6 +6602,16 @@
 			(type default)
 		)
 		(uuid "0058fb3c-a581-450b-90b9-853356afc395")
+	)
+	(wire
+		(pts
+			(xy 285.75 157.48) (xy 285.75 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b0cf86-d680-4950-b828-9f02654c8dd8")
 	)
 	(wire
 		(pts
@@ -6863,7 +6885,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 151.13) (xy 297.18 151.13)
+			(xy 298.45 151.13) (xy 297.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7513,7 +7535,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 157.48) (xy 327.66 151.13)
+			(xy 323.85 157.48) (xy 323.85 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7763,6 +7785,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 151.13) (xy 284.48 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732877fd-292c-4a2e-8d91-f267669ea162")
+	)
+	(wire
+		(pts
 			(xy 110.49 134.62) (xy 111.76 134.62)
 		)
 		(stroke
@@ -7790,6 +7822,16 @@
 			(type default)
 		)
 		(uuid "74cbe7fe-9aa7-496b-919b-1600f81d4298")
+	)
+	(wire
+		(pts
+			(xy 290.83 162.56) (xy 279.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fdc78c-c7b6-4ae4-a2b4-1aba82bf69d3")
 	)
 	(wire
 		(pts
@@ -8593,7 +8635,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 162.56) (xy 306.07 162.56)
+			(xy 292.1 162.56) (xy 303.53 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8713,7 +8755,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 162.56) (xy 317.5 162.56)
+			(xy 328.93 162.56) (xy 317.5 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8833,7 +8875,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 151.13) (xy 322.58 151.13)
+			(xy 323.85 151.13) (xy 322.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9053,7 +9095,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 157.48) (xy 300.99 151.13)
+			(xy 298.45 157.48) (xy 298.45 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9430,6 +9472,16 @@
 			(type default)
 		)
 		(uuid "f7b25039-f1fb-4cfc-af08-78c1fb13a2ae")
+	)
+	(wire
+		(pts
+			(xy 279.4 162.56) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8336f0f-4911-4e89-b1ba-b47b11d6ecf7")
 	)
 	(wire
 		(pts
@@ -12529,7 +12581,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 247.65 172.72 0)
+		(at 252.73 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12538,7 +12590,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d63fd5e-a9e5-4c5b-b175-36126a679571")
 		(property "Reference" "S3"
-			(at 254 171.3229 0)
+			(at 259.08 170.0529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12547,7 +12599,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 254 173.8629 0)
+			(at 259.08 172.5929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +12608,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 247.65 172.72 0)
+			(at 252.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 172.72 0)
+			(at 252.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +12626,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 247.65 172.72 0)
+			(at 252.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13677,7 +13729,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 323.85 172.72 0)
+		(at 326.39 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13686,7 +13738,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c7dcc95-a462-4d13-b303-a1e5d8c9f01d")
 		(property "Reference" "S4"
-			(at 330.2 171.3229 0)
+			(at 332.74 170.0529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,7 +13747,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 330.2 173.8629 0)
+			(at 332.74 172.5929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13756,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 323.85 172.72 0)
+			(at 326.39 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13713,7 +13765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 172.72 0)
+			(at 326.39 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13722,7 +13774,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 323.85 172.72 0)
+			(at 326.39 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14617,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 227.33 172.72 0)
+		(at 227.33 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14574,7 +14626,7 @@
 		(fields_autoplaced yes)
 		(uuid "4381d603-73af-4b7e-ba5f-6a1ebbed309c")
 		(property "Reference" "S1"
-			(at 233.68 171.3229 0)
+			(at 233.68 170.0529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +14635,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 233.68 173.8629 0)
+			(at 233.68 172.5929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,7 +14644,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 227.33 172.72 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,7 +14653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 172.72 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14662,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 227.33 172.72 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15364,7 +15416,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 303.53 160.02 180)
+		(at 300.99 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15372,7 +15424,7 @@
 		(dnp no)
 		(uuid "5191bd43-05b2-49af-b2b6-9312172e25fa")
 		(property "Reference" "MX60"
-			(at 303.53 164.846 0)
+			(at 300.99 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15380,7 +15432,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 303.53 167.386 0)
+			(at 300.99 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15388,7 +15440,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
-			(at 303.53 160.02 0)
+			(at 300.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15397,7 +15449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.53 160.02 0)
+			(at 300.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15406,7 +15458,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 303.53 160.02 0)
+			(at 300.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,7 +15639,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 330.2 160.02 180)
+		(at 326.39 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15595,7 +15647,7 @@
 		(dnp no)
 		(uuid "545cd2bf-fc37-4520-ac93-014aea7cf359")
 		(property "Reference" "MX67"
-			(at 330.2 164.846 0)
+			(at 326.39 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15603,7 +15655,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 330.2 167.386 0)
+			(at 326.39 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15663,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
-			(at 330.2 160.02 0)
+			(at 326.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 160.02 0)
+			(at 326.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15629,7 +15681,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 330.2 160.02 0)
+			(at 326.39 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16611,6 +16663,73 @@
 			(project "KeychronQ9OrthoIntegrated"
 				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 288.29 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66b50ad8-1728-4137-bf46-e79be160e05f")
+		(property "Reference" "MX68"
+			(at 288.29 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 288.29 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
+			(at 288.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 288.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24ac9312-056d-46d1-886b-b066ee59692d")
+		)
+		(pin "1"
+			(uuid "33d1e3df-72fb-4ab2-8ddf-36c3314f8523")
+		)
+		(instances
+			(project "KeychronQ9OrthoIntegrated"
+				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
+					(reference "MX68")
 					(unit 1)
 				)
 			)
@@ -25562,7 +25681,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 303.53 172.72 0)
+		(at 300.99 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25571,7 +25690,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb500049-911e-4b45-b6aa-2736f1e6378f")
 		(property "Reference" "S2"
-			(at 309.88 171.3229 0)
+			(at 307.34 170.0529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25580,7 +25699,7 @@
 			)
 		)
 		(property "Value" "MX_stab"
-			(at 309.88 173.8629 0)
+			(at 307.34 172.5929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25589,7 +25708,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
-			(at 303.53 172.72 0)
+			(at 300.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25598,7 +25717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 172.72 0)
+			(at 300.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25607,7 +25726,7 @@
 			)
 		)
 		(property "Description" "Cherry MX-style stabilizer"
-			(at 303.53 172.72 0)
+			(at 300.99 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26694,6 +26813,69 @@
 			(project "KeychronQ9OrthoIntegrated"
 				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 288.29 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fabc6788-3cc3-4593-a471-acdbe54d88ab")
+		(property "Reference" "S5"
+			(at 294.64 170.0529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 294.64 172.5929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+			(at 288.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 288.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "KeychronQ9OrthoIntegrated"
+				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
+					(reference "S5")
 					(unit 1)
 				)
 			)
