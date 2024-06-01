@@ -12584,7 +12584,7 @@
 		(at 252.73 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13732,7 +13732,7 @@
 		(at 326.39 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14620,7 +14620,7 @@
 		(at 227.33 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15507,7 +15507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_S_CPG151101S11_1u"
 			(at 281.94 148.59 0)
 			(effects
 				(font
@@ -25684,7 +25684,7 @@
 		(at 300.99 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26823,7 +26823,7 @@
 		(at 288.29 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fabc6788-3cc3-4593-a471-acdbe54d88ab")
