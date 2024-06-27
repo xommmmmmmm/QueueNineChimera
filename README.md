@@ -32,3 +32,9 @@ All sockets for all layout options can be populated during PCB assembly, includi
 ![Q9 Chimera keymap option names](images/SOgFqW1.png)
 
 The default keymap is provided as barebones due to the number of possible layouts, and should be edited as desired. Remember to export your .vil from Vial GUI once satisfied for safekeeping.
+
+## Credits and helpful things
+
+- Big thanks to baconspoon for validating the design, contributing plate/edge cuts, additional layouts, and a ton of other help.
+- Noah Kiser's [TKL RP2040 PCB Design](https://www.youtube.com/watch?v=6Z49bynRqj8&list=PLstjCi968EZftHZSitvqiVnyZ1CbmptIB) series
+- Joe Scotto's [PCB Design](https://www.youtube.com/watch?v=7LyziNdFlew&list=PLBD2IS_t_iWZDMdG_ZF57x9Ebm3kxKqxF) series
