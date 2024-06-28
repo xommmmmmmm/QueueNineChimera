@@ -33,3 +33,4 @@ fp-info-cache
 # Local Files
 *.log
 # *.zip
+*.db

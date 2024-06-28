@@ -1,8 +1,15 @@
 # Q9 Chimera
 
-![Q9 Chimera](images/OviRtjQ.jpeg)
-
 Q9 Chimera is an RP2040-based, drop-in, multi-layout replacement PCB for Keychron Q9. Supports ortholinear layout with central or right-hand numpad, and traditional row-stagger with right hand numpad. Supports up to two independent EC11 rotary encoders in the separated key positions. 6u spacebar option supports off-center switch position in either the standard orientation or flipped.
+
+![Q9 Chimera Ortho](images/OviRtjQ.jpeg)
+*xomm's split ortho build*
+
+![Q9 Chimera Row Stagger](images/20240627_234251.jpg)
+*baconspoon's row-staggered build*
+
+## Hardware
+
 
 * Keyboard Maintainer: [xomm](https://github.com/xommmmmmmm) and [baconspoon](https://github.com/baconspoon85)
 * Hardware Supported: Keychron Q9, Keychron Q9 Plus cases with Q9 Chimera PCB
@@ -30,6 +37,16 @@ All sockets for all layout options can be populated during PCB assembly, includi
 ## Options
 
 ![Q9 Chimera keymap option names](images/SOgFqW1.png)
+
+The images at the top use the following options:
+- xomm's split ortho layout:
+  - Spacebar option 8: 1-2-1-1-1
+  - Split Ortho, Right 2u Spacebar
+- baconspoon's row-staggered layout:
+  - Row Stagger
+  - Spacebar option 2: 6 (off-center, flipped)
+  - Right Numpad, 2u Zero
+
 
 The default keymap is provided as barebones due to the number of possible layouts, and should be edited as desired. Remember to export your .vil from Vial GUI once satisfied for safekeeping.
 
