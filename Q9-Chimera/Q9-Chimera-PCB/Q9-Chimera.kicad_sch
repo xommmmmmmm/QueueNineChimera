@@ -19038,7 +19038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 233.045 94.615 0)
 			(effects
 				(font
@@ -19106,7 +19106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 166.37 94.615 0)
 			(effects
 				(font

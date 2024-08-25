@@ -34,3 +34,4 @@ fp-info-cache
 *.log
 # *.zip
 *.db
+*.step
