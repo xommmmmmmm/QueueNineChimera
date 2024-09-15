@@ -6327,6 +6327,12 @@
 		(uuid "68848b02-864c-4700-bd25-26e728e4cf5c")
 	)
 	(junction
+		(at 207.01 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a49edf4-be04-4b82-91dc-dc8a82347fb6")
+	)
+	(junction
 		(at 262.89 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6835,6 +6841,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df55aeb4-9676-4782-b2d6-5549a4afbe5d")
+	)
+	(junction
+		(at 201.93 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1656e51-f38b-4720-9446-26048c79a2b1")
 	)
 	(junction
 		(at 334.01 102.235)
@@ -7814,6 +7826,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 97.155) (xy 202.4744 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4537d289-61f2-4f14-b218-de8e8a4e4787")
+	)
+	(wire
+		(pts
 			(xy 73.66 256.54) (xy 81.28 256.54)
 		)
 		(stroke
@@ -8021,6 +8043,16 @@
 			(type default)
 		)
 		(uuid "583621c6-b148-4756-81df-9aded7694474")
+	)
+	(wire
+		(pts
+			(xy 201.93 92.075) (xy 197.3944 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596aac42-786b-4852-9bc4-241c65b5ae8a")
 	)
 	(wire
 		(pts
@@ -9174,6 +9206,16 @@
 	)
 	(wire
 		(pts
+			(xy 197.3944 92.075) (xy 197.3944 92.0573)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28fc9b6-9630-4fc9-9f75-f7459b8b3c3c")
+	)
+	(wire
+		(pts
 			(xy 245.11 45.085) (xy 264.16 45.085)
 		)
 		(stroke
@@ -10201,6 +10243,16 @@
 			(type default)
 		)
 		(uuid "ec583cbf-0602-4ea2-9b93-61bd7922f02c")
+	)
+	(wire
+		(pts
+			(xy 202.4744 97.155) (xy 202.4744 97.1373)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7f2e73-378e-415f-89f8-36291fff8df1")
 	)
 	(wire
 		(pts
@@ -14385,9 +14437,9 @@
 		(at 176.0526 94.697 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "258fbd85-0260-4dc3-9fea-fea0f28a4f7c")
 		(property "Reference" "MX93"
 			(at 176.1749 89.408 0)
@@ -14628,7 +14680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 194.945 94.615 0)
 			(effects
 				(font
@@ -15850,6 +15902,69 @@
 			(project "QueueNineProteus"
 				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 200.66 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "386138eb-586f-47a2-ba24-5be1c2f29663")
+		(property "Reference" "S13"
+			(at 206.375 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab_7810u"
+			(at 206.375 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_3u"
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Q9-Chimera"
+				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
+					(reference "S13")
 					(unit 1)
 				)
 			)
@@ -21305,6 +21420,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 199.9344 94.5973 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "893ae5eb-826c-4d7e-8bd9-828bab5ce84f")
+		(property "Reference" "MX95"
+			(at 199.9344 86.9773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 199.9344 89.5173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 199.9344 94.5973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.9344 94.5973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 199.9344 94.5973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5693e154-5be8-4c62-8903-e2734390ce71")
+		)
+		(pin "1"
+			(uuid "84394be9-e18b-444f-85b4-03d07a2b6e17")
+		)
+		(instances
+			(project "Q9-Chimera"
+				(path "/7ce3128c-8f2e-4572-9e45-99519911b083"
+					(reference "MX95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 187.96 99.695 90)
 		(unit 1)
@@ -21533,9 +21716,9 @@
 		(at 226.06 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "8a666e23-49bb-4904-a5c6-7faa9e32e13d")
 		(property "Reference" "S12"
 			(at 231.775 128.27 0)
@@ -25679,9 +25862,9 @@
 		(at 213.9468 94.6255 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "be375f2e-62d7-4f55-abd6-8198d75e2188")
 		(property "Reference" "MX94"
@@ -28285,9 +28468,9 @@
 		(at 168.91 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e09607f2-8361-4b87-9672-1d8f8fb5d049")
 		(property "Reference" "S11"
 			(at 174.625 121.92 0)
