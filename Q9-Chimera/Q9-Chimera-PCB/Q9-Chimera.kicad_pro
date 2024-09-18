@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "holes_co_located|120650000|74295000|ea65c4c8-491d-46de-abc0-bfba20b8fd38|4a847e3c-9823-42e5-98e8-4189eeb90c52",
-        "holes_co_located|120650000|89535000|65df6f7d-178d-4547-9f19-774df4916660|5cae88a5-4bfb-400d-acff-27fcd2723eb5",
-        "silk_overlap|310012500|54312500|564cec87-976a-4513-9e5f-77c4da3cb0e5|e67013ee-0b96-4d36-9645-0701587b6d0c",
-        "silk_overlap|310012500|55312500|564cec87-976a-4513-9e5f-77c4da3cb0e5|a796e5ea-5e3e-4cd8-b91f-fc7ba54fdab8"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
