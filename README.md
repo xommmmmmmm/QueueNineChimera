@@ -10,21 +10,51 @@ Q9 Chimera is an RP2040-based, drop-in, multi-layout replacement PCB for Keychro
 
 ## Hardware
 
-
 * Keyboard Maintainer: [xomm](https://github.com/xommmmmmmm) and [baconspoon](https://github.com/baconspoon85)
 * Hardware Supported: Keychron Q9, Keychron Q9 Plus cases with Q9 Chimera PCB
 * Hardware Availability: Case from [Keychron](https://www.keychron.com/products/keychron-q9-qmk-custom-mechanical-keyboard), Open-source PCB orderable from JLCPCB using provided [production files](https://github.com/xommmmmmmm/QueueNineChimera/tree/main/Q9-Chimera/Q9-Chimera-PCB/production). Production files should be orderable as-is and have been used successfully for PCBA, but no guarantees or warranties are made. 
 
 This project is not affiliated with or endorsed by Keychron or JLCPCB.
 
-### Assembly Notes
+### Build Guide
 
-- The universal FR4 plate is softer than the original steel plate, so you may need to pull up the plate when inserting switches, or use a plate fork to ensure switches are fully seated.
-- The original foam gaskets can be removed cleanly with care and reused on the Chimera PCB.
+**Disassembly**:
+1. If you have keycaps on the board, remove them before disassembly to avoid scratching them against the case.
+1. Flip the board upside down and unscrew the six H2.5 screws on the bottom case to remove it.
+1. Disconnect the JST connector from the original board
+1. Lift the assembly out by lifting from the bottom (spacebar side) first, then pull it out from under the daughterboard. Take care not to lose the 3 plastic caps from the pegs on the top case.
+
+**Test the new PCB**:
+1. Connect the JST from the daughterboard to the new board.
+1. Taking care to not short any board components on the top case, connect the USB-C to your PC.
+1. Open https://vial.rocks/ to validate that is detected.
+1. Disconnect USB-C once done, then disconnect the JST.
+
+**PCB Assembly**:
+1. If you have a barebones PCB and/or want to add EC11 encoder(s), now is the time to solder. 
+    1. If you are not using encoder(s), and you originally purchased the Q9 with one, remove the PH1 screws holding in the encoder blocker from the top case. 
+1. Add any PCB-mounted stabilizers you will be using. If your switches have minimal wobble, you generally won't need 2u stabilizers.  
+    1. Limousine note: If you chose to have Mill-Max sockets soldered for 3u spacebars, you will need to desolder one of the Kailh hotswap sockets to access a 3u stabilizer hole. Conversely, the 3u Mill-Max sockets sit under the stabilizers of other footprints, so you may want to add pads under your stabilizers to reduce the bottom-out noise.
+
+**Plate Assembly**:
+1. When inserting switches, support the hotswap socket from the back to avoid accidental damage in case of misalignment. Reference the KLE for your desired layout if unsure which footprints to use.
+1. To align the plate, place switches around the border of the plate and a few in the top row, then assemble the plate to the PCB.
+1. To minimize plate flex when inserting switches, fill out the remaining switches from right to left, top to bottom.
+1. If you will be reusing the original foam gaskets, remove them carefully by picking at one side until all the adhesive is lifted, then slowly peel it off the plate.
+1. If you will be using the included gaskets from the kit, they are unfortunately short, but will function and sound pretty much the same.
+    1. You can choose to use them as-is and stick them in the middle, or cut them in half and stick them on the edges.
+1. Apply the gaskets on both sides of the plate (eight total), using tweezers is recommended.
+
+**Case Assembly**:
+1. Insert the assembly into the top case, putting the top under the daughterboard first, then aligning the mounting holes on the plate with the pegs in the top case. There might be a little bit of friction at first but it will seat once everything is aligned, force is not required.
+1. Tape modding the bottom of the PCB or the inside of the bottom case, either with the stock cardboard adhesive and/or 3M painter's tape is highly recommended. This will prevent unlikely but possible shorts from bottoming out the PCB on aftermarket gaskets if you press hard.
+1. Close the bottom case, add keycaps, set up your layout in Vial.
+    1. In Vial, use the Layouts tab to select the physical layout options you want. For the 8u/10u spacebar option on Chimera v1.1, select the first 6u bar option and simply leave the unused keys blank.
+3. Enjoy! (And maybe send a pic of your completed build in the mini-GB channel on the 40% Keyboards Discord server!)
 
 ## Firmware
 
-Vial firmware source can be found [here](https://github.com/xommmmmmmm/vial-qmk/tree/vial/keyboards/xomm/q9_chimera). A pre-compiled firmware can be found [here](https://github.com/xommmmmmmm/QueueNineChimera/tree/main/firmware/xomm_q9_chimera_vial.uf2).
+PCBs purchases from the mini-GB are pre-flashed. Vial firmware source can be found [here](https://github.com/xommmmmmmm/vial-qmk/tree/vial/keyboards/xomm/q9_chimera). A pre-compiled firmware can be found [here](https://github.com/xommmmmmmm/QueueNineChimera/tree/main/firmware/xomm_q9_chimera_vial.uf2). (ToDo: Update links for Chimera v1.1 and Limousine)
 
 # Q9 Chimera keymap options
 
