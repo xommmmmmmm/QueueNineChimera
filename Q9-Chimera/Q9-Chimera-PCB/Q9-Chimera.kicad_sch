@@ -14680,7 +14680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 194.945 94.615 0)
 			(effects
 				(font
@@ -14838,6 +14838,15 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 121.92 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2836319"
 			(at 121.92 219.71 0)
 			(effects
 				(font
@@ -15866,6 +15875,15 @@
 			)
 		)
 		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(at 35.56 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C97521"
 			(at 35.56 260.35 0)
 			(effects
 				(font
@@ -17615,7 +17633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 309.245 94.615 0)
 			(effects
 				(font
@@ -19102,6 +19120,15 @@
 			)
 		)
 		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 156.21 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2897477"
 			(at 156.21 220.98 0)
 			(effects
 				(font
@@ -21445,7 +21472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 199.9344 94.5973 0)
 			(effects
 				(font
@@ -22683,6 +22710,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C160393"
+			(at 129.54 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "be8d8069-6bf2-4370-a044-940f195f8ffc")
 		)
@@ -23149,6 +23185,15 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 54.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2040"
 			(at 54.61 184.15 0)
 			(effects
 				(font
@@ -29308,6 +29353,15 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 81.28 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C403945"
+			(at 81.28 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
