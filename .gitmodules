@@ -1,0 +1,3 @@
+[submodule "Limousine"]
+	path = Limousine
+	url = https://github.com/baconspoon85/Limousine.git

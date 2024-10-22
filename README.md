@@ -1,6 +1,8 @@
-# Q9 Chimera
+# Q9 Chimera & Limousine
 
-Q9 Chimera is an RP2040-based, drop-in, multi-layout replacement PCB for Keychron Q9. Supports ortholinear layout with central or right-hand numpad, and traditional row-stagger with right hand numpad. Supports up to two independent EC11 rotary encoders in the separated key positions. 6u spacebar option supports off-center switch position in either the standard orientation or flipped.
+Q9 Chimera & Limousine are RP2040-based, drop-in, multi-layout replacement PCBs for Keychron Q9. Chimera supports ortholinear layout with central or right-hand numpad, and traditional row-stagger with right hand numpad. Limousine supports row and alpha stagger, with support for 2.25u/2.75u "Alice" bars and right-hand numpad.
+
+Both versions support up to two independent EC11 rotary encoders in the separated key positions, and a plethora of bottom-row options.
 
 ![Q9 Chimera Ortho](images/OviRtjQ.jpeg)
 *xomm's split ortho build*
@@ -12,7 +14,7 @@ Q9 Chimera is an RP2040-based, drop-in, multi-layout replacement PCB for Keychro
 
 * Keyboard Maintainer: [xomm](https://github.com/xommmmmmmm) and [baconspoon](https://github.com/baconspoon85)
 * Hardware Supported: Keychron Q9, Keychron Q9 Plus cases with Q9 Chimera PCB
-* Hardware Availability: Case from [Keychron](https://www.keychron.com/products/keychron-q9-qmk-custom-mechanical-keyboard), Open-source PCB orderable from JLCPCB using provided [production files](https://github.com/xommmmmmmm/QueueNineChimera/tree/main/Q9-Chimera/Q9-Chimera-PCB/production). Production files should be orderable as-is and have been used successfully for PCBA, but no guarantees or warranties are made. 
+* Hardware Availability: Case from [Keychron](https://www.keychron.com/products/keychron-q9-qmk-custom-mechanical-keyboard), Open-source PCB orderable from JLCPCB using provided production files in their respective subfolders. Production files should be orderable as-is and have been used successfully for PCBA, but no guarantees or warranties are made. 
 
 This project is not affiliated with or endorsed by Keychron or JLCPCB.
 
@@ -25,9 +27,11 @@ This project is not affiliated with or endorsed by Keychron or JLCPCB.
 1. Lift the assembly out by lifting from the bottom (spacebar side) first, then pull it out from under the daughterboard. Take care not to lose the 3 plastic caps from the pegs on the top case.
 
 **Test the new PCB**:
+1. Insert 2 switches in the top left for unlocking the board.
 1. Connect the JST from the daughterboard to the new board.
 1. Taking care to not short any board components on the top case, connect the USB-C to your PC.
-1. Open https://vial.rocks/ to validate that is detected.
+1. Open https://vial.rocks/ to validate that it is detected.
+1. Open the matrix tester and use tweezers or a switch puller to check sockets.
 1. Disconnect USB-C once done, then disconnect the JST.
 
 **PCB Assembly**:
@@ -46,7 +50,7 @@ This project is not affiliated with or endorsed by Keychron or JLCPCB.
 1. Apply the gaskets on both sides of the plate (eight total), using tweezers is recommended.
 
 **Case Assembly**:
-1. Insert the assembly into the top case, putting the top under the daughterboard first, then aligning the mounting holes on the plate with the pegs in the top case. There might be a little bit of friction at first but it will seat once everything is aligned, force is not required.
+1. Insert the assembly into the top case, putting the top under the daughterboard first, then aligning the mounting holes on the plate with the pegs in the top case. Pay attention to the six screw posts since they might catch on their cutouts in plate a bit. There might be a little bit of friction at first but it will seat once everything is aligned, heavy force is not required. 
 1. Tape modding the bottom of the PCB or the inside of the bottom case, either with the stock cardboard adhesive and/or 3M painter's tape is highly recommended. This will prevent unlikely but possible shorts from bottoming out the PCB on aftermarket gaskets if you press hard.
 1. Close the bottom case, add keycaps, set up your layout in Vial.
     1. In Vial, use the Layouts tab to select the physical layout options you want. For the 8u/10u spacebar option on Chimera v1.1, select the first 6u bar option and simply leave the unused keys blank.
@@ -54,15 +58,18 @@ This project is not affiliated with or endorsed by Keychron or JLCPCB.
 
 ## Firmware
 
-PCBs purchases from the mini-GB are pre-flashed. Vial firmware source can be found [here](https://github.com/xommmmmmmm/vial-qmk/tree/vial/keyboards/xomm/q9_chimera). A pre-compiled firmware can be found [here](https://github.com/xommmmmmmm/QueueNineChimera/tree/main/firmware/xomm_q9_chimera_vial.uf2). (ToDo: Update links for Chimera v1.1 and Limousine)
+PCBs purchases from the mini-GB are pre-flashed. Vial firmware source can be found [here](https://github.com/xommmmmmmm/vial-qmk/tree/q9_chimera_v1.1/keyboards/q9_dropin). Pre-compiled firmware can be found [here](https://github.com/xommmmmmmm/QueueNineChimera/tree/main/firmware/). 
 
 # Q9 Chimera keymap options
 
 All sockets for all layout options can be populated during PCB assembly, including the ones under the encoders.
 
-![Q9 Chimera keymap options](images/q-εννέα-χίμαιρα---vial-json.png)
+![Q9 Chimera v1.1 keymap options](images/q-εννέα-χίμαιρα---vial-json-v1-1.png)
+- [Chimera v1.0 Keyboard Layout Editor gist](https://www.keyboard-layout-editor.com/#/gists/b5c5bf3bcd11c2a14bd86eb9c05d4cf7)
+- [Chimera v1.1 Keyboard Layout Editor gist](https://www.keyboard-layout-editor.com/#/gists/ead72f9d526c6d2558d7e2d7f39707f8)
 
-[Keyboard Layout Editor gist](http://www.keyboard-layout-editor.com/#/gists/b5c5bf3bcd11c2a14bd86eb9c05d4cf7)
+![Q9 Limousine v1.0 keymap options](images/limousine---q9-dropin.png)
+- [Limousine v1.0 Keyboard Layout Editor gist](https://www.keyboard-layout-editor.com/#/gists/2bb4640f105051db48f84b30d6797b1b)
 
 ## Options
 
@@ -76,7 +83,6 @@ The images at the top use the following options:
   - Row Stagger
   - Spacebar option 2: 6 (off-center, flipped)
   - Right Numpad, 2u Zero
-
 
 The default keymap is provided as barebones due to the number of possible layouts, and should be edited as desired. Remember to export your .vil from Vial GUI once satisfied for safekeeping.
 
